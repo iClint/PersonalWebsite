@@ -1,0 +1,12 @@
+.title,
+.occupation,
+.company {
+  line-height: 30%;
+}
+
+.occupation,
+.company {
+  line-height: 0%;
+  font-size: medium;
+  font-weight:600;
+}
