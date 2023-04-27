@@ -1,18 +1,17 @@
 header {
-  padding:10px;
-  background-color:rgb(149, 169, 186);
+  padding: 10px;
+  background-color: rgb(209, 217, 211);
 }
 
-.title
-{
- margin-bottom: 0;
-  font-weight:600;
-  color:rgb(255, 255, 255)
+.title {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: rgb(48, 52, 63);
 }
 
 .occupation,
 .company {
   font-size: medium;
-  font-weight:300;
-    color:rgb(47, 47, 47)
+  font-weight: 300;
+  color: rgba(48, 52, 63, 0.75);
 }

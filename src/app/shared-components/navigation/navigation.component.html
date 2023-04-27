@@ -1,8 +1,14 @@
-<div class="menuIcon" >
-  <mat-icon (click)="toggleMenu()">menu</mat-icon>
+<div class="menuIcon">
+  <mat-icon class="white-icon" (click)="toggleMenu()">menu</mat-icon>
 </div>
-<ul [class.menuOpen]="classApplied">
-  <li>About</li>
-  <li>Portfolio</li>
-  <li>Contact</li>
+<ul
+  [style.--menuHeight]="menuHeight"
+  [class.menuOpen]="classApplied"
+  (click)="toggleMenu()"
+>
+  <li>
+    <a *ngFor="let link of _config.links" routerLink="{{ link.path }}">{{
+      link.title
+    }}</a>
+  </li>
 </ul>

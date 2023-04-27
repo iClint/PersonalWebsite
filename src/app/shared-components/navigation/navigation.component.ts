@@ -1,4 +1,5 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
+import { navigationConfig } from './navigation.config';
 
 @Component({
   selector: 'app-navigation',
@@ -6,6 +7,11 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./navigation.component.css'],
 })
 export class NavigationComponent {
+  _config = navigationConfig;
+
+  numberOfLinks = this._config.links.length;
+  menuHeight = this.numberOfLinks * 40;
+
   classApplied = false;
 
   toggleMenu() {

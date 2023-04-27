@@ -1,4 +1,7 @@
 footer {
-    display: flex;
-  background-color:rgb(149, 169, 186);
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 52, 63);
+  font-size: small;
 }
