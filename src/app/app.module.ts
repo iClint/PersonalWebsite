@@ -9,7 +9,6 @@ import { NavigationComponent } from './shared-components/navigation/navigation.c
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
-import { NavigationToggleComponent } from './shared-components/navigation/navigation-toggle/navigation-toggle.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 
@@ -22,7 +21,6 @@ import { MatIconModule } from '@angular/material/icon';
     AboutComponent,
     ContactComponent,
     PortfolioComponent,
-    NavigationToggleComponent
   ],
   imports: [
     BrowserModule,

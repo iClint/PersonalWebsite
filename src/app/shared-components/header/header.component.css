@@ -1,12 +1,18 @@
-.title,
-.occupation,
-.company {
-  line-height: 30%;
+header {
+  padding:10px;
+  background-color:rgb(149, 169, 186);
+}
+
+.title
+{
+ margin-bottom: 0;
+  font-weight:600;
+  color:rgb(255, 255, 255)
 }
 
 .occupation,
 .company {
-  line-height: 0%;
   font-size: medium;
-  font-weight:600;
+  font-weight:300;
+    color:rgb(47, 47, 47)
 }

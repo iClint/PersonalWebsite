@@ -9,4 +9,10 @@ import { headerConfig } from './header.config';
 export class HeaderComponent {
   @Input() public title: string | undefined;
   public _config = headerConfig;
+
+  classApplied = false;
+
+  toggleClass() {
+    this.classApplied = !this.classApplied;
+  }
 }

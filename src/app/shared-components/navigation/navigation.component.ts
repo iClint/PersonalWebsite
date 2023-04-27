@@ -6,7 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./navigation.component.css'],
 })
 export class NavigationComponent {
-  public toggleMenu() {
-    alert('test');
+  classApplied = false;
+
+  toggleMenu() {
+    this.classApplied = !this.classApplied;
   }
 }

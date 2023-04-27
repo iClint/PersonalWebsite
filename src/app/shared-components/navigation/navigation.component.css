@@ -1,30 +1,44 @@
 .menuIcon {
   display: flex;
   justify-content: center;
+  background-color:rgb(172, 181, 190);
 }
 
-.menu{
-    height:0;
-    overflow: hidden;
+.menuClosed {
+  height: 500px;
+  overflow: hidden;
+  transition: 1s, ease-in-out;
 }
 
-.menuOpen{
-    height:auto;
+.menuOpen {
+  height: 500px;
+  transition: 5s, ease-in-out;
 }
 
 ul {
+  height: 0px;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   list-style: none;
+   background-color:rgb(172, 181, 190);
+  transition: height 0.25s ease-in-out;
+}
+.menuOpen {
+  height: 120px;
+  transition: height 0.25s ease-in-out;
 }
 
-li{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: large;
+  font-weight: 500;
 }
 
-li:hover{
-    background-color: aqua;
+li:hover {
+  color:aliceblue;
+  background-color:darkgrey;
 }
