@@ -1,5 +1,5 @@
 export const headerConfig = {
   pageTitle: 'ClintKingston.com',
-  occupation: 'Associate full stack software engineer',
+  occupation: 'Associate Software Engineer',
   company: 'WooliesX',
 };

@@ -54,3 +54,6 @@ a:hover {
   color: rgb(48, 52, 63);
   background-color: darkgrey;
 }
+.active-link {
+  color: aqua;
+}

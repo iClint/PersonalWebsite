@@ -1,8 +1,14 @@
 header {
+  display: flex;
   padding: 10px;
   background-color: rgb(209, 217, 211);
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
 .title {
   margin-bottom: 0;
   font-weight: 600;

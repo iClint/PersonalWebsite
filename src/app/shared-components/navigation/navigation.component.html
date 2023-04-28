@@ -7,8 +7,11 @@
   (click)="toggleMenu()"
 >
   <li>
-    <a *ngFor="let link of _config.links" routerLink="{{ link.path }}">{{
-      link.title
-    }}</a>
+    <a
+      *ngFor="let link of _config.links"
+      routerLink="{{ link.path }}"
+      routerLinkActive="active-link"
+      >{{ link.title }}</a
+    >
   </li>
 </ul>
