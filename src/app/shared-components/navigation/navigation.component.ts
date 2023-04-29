@@ -17,4 +17,8 @@ export class NavigationComponent {
   toggleMenu() {
     this.classApplied = !this.classApplied;
   }
+
+  closeMenu() {
+    this.classApplied = false;
+  }
 }

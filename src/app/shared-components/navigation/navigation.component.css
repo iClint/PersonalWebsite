@@ -1,22 +1,16 @@
 .menuIcon {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 40px;
   background-color: rgb(48, 52, 63);
+  cursor: pointer;
 }
 
 .white-icon {
+  line-height: 75%;
+  font-size: 32px;
   color: white;
-}
-
-.menuClosed {
-  height: 500px;
-  overflow: hidden;
-  transition: 1s, ease-in-out;
-}
-
-.menuOpen {
-  height: 500px;
-  transition: 5s, ease-in-out;
 }
 
 ul {
@@ -28,8 +22,9 @@ ul {
   background-color: rgb(48, 52, 63);
   transition: height 0.25s ease-in-out;
 }
+
 .menuOpen {
-  height: var(--menuHeight);
+  height: 120px;
   transition: height 0.25s ease-in-out;
 }
 
@@ -55,5 +50,27 @@ a:hover {
   background-color: darkgrey;
 }
 .active-link {
-  color: aqua;
+  color: darkorange;
+  text-decoration: underline;
+}
+
+.active-link:hover {
+  color: darkorange;
+  background-color: rgb(48, 52, 63);
+  cursor: default;
+}
+
+@media screen and (min-width: 992px) {
+  .menuIcon {
+    display: none;
+  }
+
+  ul {
+    height: 40px;
+    flex-direction: row;
+  }
+
+  li {
+    flex-direction: row;
+  }
 }

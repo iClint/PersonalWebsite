@@ -1,0 +1,17 @@
+<div class="centered">
+  <div class="bold">Proficient in the below technologies</div>
+  <div class="small-text">Tap for more details of skill level</div>
+</div>
+
+<div class="container">
+  <div class="wrapper">
+    <div *ngFor="let skill of _config.skills">
+      <img
+        src="../../../../assets/images/skills-logos/{{ skill.img }}"
+        alt="{{ skill.title }}"
+        class="responsive"
+        matTooltip="{{ skill.title }}"
+      />
+    </div>
+  </div>
+</div>

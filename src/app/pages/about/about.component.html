@@ -2,7 +2,6 @@
   <p>{{ _config.intro }}</p>
   <p>{{ _config.occupation }}</p>
   <p>{{ _config.workHistory }}</p>
-  <ul aria-label="Skills">
-    <li *ngFor="let skill of _config.skills">{{ skill }}</li>
-  </ul>
+
+  <app-skills></app-skills>
 </div>

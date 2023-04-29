@@ -1,7 +1,11 @@
 header {
   display: flex;
   padding: 10px;
-  background-color: rgb(209, 217, 211);
+  background-color: rgb(194, 200, 195);
+}
+
+.head-shot {
+  width: 64px;
 }
 
 .content {
@@ -20,4 +24,14 @@ header {
   font-size: medium;
   font-weight: 300;
   color: rgba(48, 52, 63, 0.75);
+}
+
+@media screen and (min-width: 992px) {
+  .head-shot {
+    width: 128px;
+  }
+
+  .content {
+    justify-content: flex-end;
+  }
 }

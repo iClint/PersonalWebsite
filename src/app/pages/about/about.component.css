@@ -1,4 +1,0 @@
-ul::before {
-  content: attr(aria-label);
-  font-weight: bold;
-}
