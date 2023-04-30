@@ -28,8 +28,9 @@ ul {
   transition: height 0.25s ease-in-out;
 }
 
+/* 40px per navigation link */
 .menuOpen {
-  height: 120px;
+  height: 160px;
   transition: height 0.25s ease-in-out;
 }
 

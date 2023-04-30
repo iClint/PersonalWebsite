@@ -1,8 +1,12 @@
 <div class="wrapper">
-  <div class="left-column">
-    <img class="logo" src="../../../../../assets/images/skills-logos/{{ image }}" alt="" />
+  <div class="content">
+    <img
+      class="logo"
+      src="../../../../../assets/images/skills-logos/{{ image }}"
+      alt=""
+    />
+    {{ content }}
   </div>
-  <div>{{ content }}</div>
 </div>
 <mat-dialog-actions>
   <button (click)="close()">Close</button>

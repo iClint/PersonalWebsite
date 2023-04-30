@@ -9,6 +9,10 @@ export const navigationConfig = {
       title: 'Portfolio',
     },
     {
+      path: 'blog',
+      title: 'Blog',
+    },
+    {
       path: 'contact',
       title: 'Contact',
     },

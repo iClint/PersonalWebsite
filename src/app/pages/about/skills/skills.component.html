@@ -6,7 +6,8 @@
 <div class="container">
   <div class="wrapper">
     <div *ngFor="let skill of _config.skills">
-      <img id="{{skill.title}}"
+      <img
+        id="{{ skill.title }}"
         src="../../../../assets/images/skills-logos/{{ skill.img }}"
         alt="{{ skill.title }}"
         class="responsive"

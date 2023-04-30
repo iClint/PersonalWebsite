@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { MatDialogModule } from '@angular/material/dialog'
+import { MatDialogModule } from '@angular/material/dialog';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -16,6 +16,7 @@ import { HeaderComponent } from './shared-components/header/header.component';
 import { NavigationComponent } from './shared-components/navigation/navigation.component';
 import { SkillsComponent } from './pages/about/skills/skills.component';
 import { SkillDialogComponent } from './pages/about/skills/skill-dialog/skill-dialog.component';
+import { BlogComponent } from './pages/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SkillDialogComponent } from './pages/about/skills/skill-dialog/skill-di
     PortfolioComponent,
     SkillsComponent,
     SkillDialogComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,7 @@ import { SkillDialogComponent } from './pages/about/skills/skill-dialog/skill-di
     BrowserAnimationsModule,
     MatIconModule,
     MatTooltipModule,
-    MatDialogModule
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

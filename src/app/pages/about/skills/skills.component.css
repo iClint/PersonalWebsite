@@ -34,6 +34,10 @@
   font-size: 32px !important;
 }
 
-img{
+img {
   max-width: 90px;
+}
+
+img:hover {
+  cursor: pointer;
 }

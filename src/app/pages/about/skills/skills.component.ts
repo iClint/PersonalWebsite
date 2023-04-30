@@ -1,11 +1,7 @@
-import { Component, ElementRef } from '@angular/core';
-import { skillsConfig } from './skills.config';
-import {
-  MatDialog,
-  MAT_DIALOG_DATA,
-  MatDialogRef,
-} from '@angular/material/dialog';
+import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { SkillDialogComponent } from './skill-dialog/skill-dialog.component';
+import { skillsConfig } from './skills.config';
 
 @Component({
   selector: 'app-skills',
@@ -21,7 +17,7 @@ export class SkillsComponent {
     var target = event.target || event.srcElement || event.currentTarget;
     var idAttr = target.attributes.id;
     var value = idAttr.nodeValue;
-    const dialogRef = this.dialog.open(SkillDialogComponent, {data: value});
+    const dialogRef = this.dialog.open(SkillDialogComponent, { data: value });
     dialogRef.disableClose = true;
   }
 }
