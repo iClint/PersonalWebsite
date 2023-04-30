@@ -1,16 +1,21 @@
+/* Extra-small device max-width: 600px */
 .menuIcon {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
-  height: 40px;
+  height: 15px;
   background-color: rgb(48, 52, 63);
   cursor: pointer;
 }
 
 .white-icon {
+  padding: 10px;
+  position: relative;
+  top: -22px;
+  right: 5px;
   line-height: 75%;
   font-size: 32px;
-  color: white;
+  color: rgb(48, 52, 63);
 }
 
 ul {
@@ -60,7 +65,56 @@ a:hover {
   cursor: default;
 }
 
+/* small device */
+@media screen and (min-width: 600px) {
+  .menuIcon {
+    display: none;
+  }
+
+  ul {
+    height: 40px;
+    flex-direction: row;
+  }
+
+  li {
+    flex-direction: row;
+  }
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) {
+  .menuIcon {
+    display: none;
+  }
+
+  ul {
+    height: 40px;
+    flex-direction: row;
+  }
+
+  li {
+    flex-direction: row;
+  }
+}
+
+/* Large device */
 @media screen and (min-width: 992px) {
+  .menuIcon {
+    display: none;
+  }
+
+  ul {
+    height: 40px;
+    flex-direction: row;
+  }
+
+  li {
+    flex-direction: row;
+  }
+}
+
+/* Extra-large device */
+@media screen and (min-width: 1200px) {
   .menuIcon {
     display: none;
   }

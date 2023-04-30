@@ -1,0 +1,17 @@
+*{
+    padding:10px;
+}
+
+mat-dialog-actions {
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper {
+    display:flex;
+    max-width: 600px;
+}
+
+.logo {
+    max-width: 90px;
+}

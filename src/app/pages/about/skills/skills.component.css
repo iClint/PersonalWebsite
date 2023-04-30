@@ -33,3 +33,7 @@
 .mat-tooltip.tooltip {
   font-size: 32px !important;
 }
+
+img{
+  max-width: 90px;
+}

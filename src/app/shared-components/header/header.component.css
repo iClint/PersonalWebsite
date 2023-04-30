@@ -26,6 +26,20 @@ header {
   color: rgba(48, 52, 63, 0.75);
 }
 
+/* Extra-small device max-width: 600px */
+
+/* small device */
+@media screen and (min-width: 600px) {
+  header {
+    min-width: 370px;
+  }
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) {
+}
+
+/* Large device */
 @media screen and (min-width: 992px) {
   .head-shot {
     width: 128px;
@@ -34,4 +48,8 @@ header {
   .content {
     justify-content: flex-end;
   }
+}
+
+/* Extra-large device */
+@media screen and (min-width: 1200px) {
 }
