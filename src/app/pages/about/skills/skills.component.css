@@ -35,9 +35,15 @@
 }
 
 img {
-  max-width: 90px;
+  max-width: 120px;
 }
 
 img:hover {
   cursor: pointer;
+}
+
+mat-card{
+  padding: 10px;
+  max-width: fit-content;
+  border-radius: 10px;
 }

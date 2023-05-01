@@ -25,6 +25,7 @@ footer {
 /* Extra-large device */
 @media screen and (min-width: 1200px) {
   footer {
+    margin-bottom: 40px;
     border-radius: 0 0 10px 10px;
   }
 }

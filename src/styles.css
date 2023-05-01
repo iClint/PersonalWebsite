@@ -1,9 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Extra-small device max-width: 600px */
 html,
-body {
-  height: 100%;
-}
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -12,5 +10,33 @@ body {
 .page {
   padding: 10px;
   background-color: rgb(219, 225, 233);
-  min-height: calc(100vh - 268px);
+  min-height: calc(100vh - 166px);
+}
+
+/* small device */
+@media screen and (min-width: 600px) {
+       .page {
+    min-height: calc(80vh - 6px);
+  }
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) {
+     .page {
+    min-height: calc(80vh - 6px);
+  }
+}
+
+/* Large device */
+@media screen and (min-width: 992px) {
+   .page {
+    min-height: calc(80vh - 62px);
+  }
+}
+
+/* Extra-large device */
+@media screen and (min-width: 1200px) {
+  .page {
+    min-height: calc(80vh - 140px);
+  }
 }

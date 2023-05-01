@@ -1,19 +1,20 @@
-<div class="centered">
-  <div class="bold">Proficient in the below technologies</div>
-  <div class="small-text">Tap for more details of skill level</div>
-</div>
-
 <div class="container">
-  <div class="wrapper">
-    <div *ngFor="let skill of _config.skills">
-      <img
-        id="{{ skill.title }}"
-        src="../../../../assets/images/skills-logos/{{ skill.img }}"
-        alt="{{ skill.title }}"
-        class="responsive"
-        matTooltip="{{ skill.title }}"
-        (click)="openDialog($event)"
-      />
+  <mat-card>
+    <div class="centered">
+      <div class="bold">Proficient in the below technologies</div>
+      <div class="small-text">Tap for more details of skill level</div>
     </div>
-  </div>
+    <div class="wrapper">
+      <div *ngFor="let skill of _config.skills">
+        <img
+          id="{{ skill.title }}"
+          src="../../../../assets/images/skills-logos/{{ skill.img }}"
+          alt="{{ skill.title }}"
+          class="responsive"
+          matTooltip="{{ skill.title }}"
+          (click)="openDialog($event)"
+        />
+      </div>
+    </div>
+  </mat-card>
 </div>

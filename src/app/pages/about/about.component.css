@@ -1,0 +1,47 @@
+/* Extra-small device max-width: 600px */
+.content{
+    text-align: justify;
+}
+mat-card {
+  padding: 10px;
+  max-width: fit-content;
+  border-radius: 10px;
+}
+/* small device */
+@media screen and (min-width: 600px) {
+}
+
+/* Medium device */
+@media screen and (min-width: 768px) {
+  mat-card {
+    margin-left: 20px;
+  }
+  .content {
+    margin-right: 20px;
+    max-width: 70%;
+    float: left;
+  }
+}
+
+/* Large device */
+@media screen and (min-width: 992px) {
+  margin-right: 20px;
+  mat-card {
+    margin-left: 20px;
+  }
+  .content {
+    max-width: 70%;
+    float: left;
+  }
+}
+
+/* Extra-large device */
+@media screen and (min-width: 1200px) {
+  margin-right: 20px;
+  mat-card {
+    margin-left: 20px;
+  }
+  .content {
+    float: left;
+  }
+}
